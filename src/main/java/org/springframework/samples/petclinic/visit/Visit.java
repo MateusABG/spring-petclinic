@@ -43,6 +43,10 @@ public class Visit extends BaseEntity {
     @Column(name = "description")
     private String description;
 
+    @NotEmpty
+    @Column(name = "prescription")
+    private String prescription;
+
     @Column(name = "pet_id")
     private Integer petId;
 
