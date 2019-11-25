@@ -68,7 +68,7 @@ public class Visit extends BaseEntity {
     public String getPrescription(){
         return this.description;
     }
-    public void setDescription(String prescription){
+    public void setPrescription(String prescription){
        this.prescription=prescription;
     }
     public String getDescription() {
